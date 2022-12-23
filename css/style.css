@@ -1,0 +1,252 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.36;
+    text-decoration-color: #070707;
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    
+}
+.header {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 970px;
+
+}
+.nav_bar {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    
+}
+.nav_bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin: 27.5px 215px;
+}
+.nav_bar li {
+    float: left;
+    color:#828282;
+    margin-right: 40px;
+    
+}
+.nav_bar li a {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: #828282;
+    ;
+}
+.nav_bar li a:hover {
+    color: #070707;
+    ;
+}
+.empty {
+    border-bottom: 1px solid #828282;
+    width: 970px;
+    margin-bottom: 12px;
+    
+    /* width: 100%;
+    max-width: 970px; */
+}
+/* .name {
+    width: 100%;
+    max-width: 970px;
+} */
+h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    margin-bottom: 50px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 34px;
+   
+}
+
+.nav_bar li img {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.pic {
+    width: 100%;
+    max-width: 970px;
+    height: 387px; 
+}
+.pic img {
+    width: 100%;
+    
+}
+.about_me {
+    width: 100%;
+    background-color: #F6F6F6;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.about_me h3 {
+    margin-bottom: 50px;
+}
+
+
+.about_me p {
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+
+.about_me p:last-child {
+    margin-bottom: 0;
+}
+.skills {
+    text-align: center;
+    margin-bottom: 100px;
+}
+.skills h3 {
+    margin-bottom: 20px;
+}
+.skills p {
+    margin-bottom: 50px;
+}
+.logos {
+    width: 100%;
+    max-width: 970px;
+    text-align: center;
+    margin: 0 auto;
+}
+.logos_item {
+    display: inline-block;
+    margin-right: 90px;
+}
+.logos_item p {
+    font-weight: 700;
+    font-size: 14px;
+    color: #828282;
+    margin-bottom: 60px;
+}
+.logos_item:last-child {
+    margin-right: 0;
+}
+.logo {
+    text-align: center;
+    margin-bottom: 25px;
+}
+.raiting {
+    width: 170px;
+    height: 26px;
+    text-align: center;
+}
+.wraper {
+    background-color: #E5E5E5;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.portfolio {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    
+    
+}
+.portfolio h3 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 34px;
+}
+.portfolio_pic {
+    width: 970px;
+    height: 540px;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.portfolio a {
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    width: 200px;
+    margin: 0 auto 70px auto;
+    height: 24px;
+    color: #070707;
+    font-weight: 400;
+}
+.portfolio a:first-of-type {
+    height: 50px;
+
+}
+.portfolio a:last-of-type {
+    width: 260px;
+    margin-bottom: 0;
+}
+footer {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.contacts {
+    width: 100%;
+    max-width: 970px;
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.contacts h3 {
+    margin-bottom: 20px;
+}
+.contacts p {
+    /* width: 280px;
+    height: 46px;  ??*/
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.contacts button {
+    margin-bottom: 30px;
+    padding: 10px 16px;
+    background-color: #070707;
+    color: #FFFFFF;
+    width: 184px;
+    height: 44px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 22px;
+    
+}
+
+.social_group {
+    max-width: 315px;
+    margin: 0 auto;
+    margin-bottom: 60px; 
+    /* не працює. через Щось не бачить,що зображення має 40рх і рахує цей марджин від початку контейнера */
+}
+
+.social_group li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 50px;
+
+}
+.social_group li:last-of-type {
+    margin-right: 0;
+}
+
+.contacts p:last-of-type {
+    width: 200px;
+    height: 60px;
+    clear: both;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #828282;
+}
